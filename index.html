@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerador de botão WhatsApp</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <main>
+        <section class="container">
+            <h1>Gerador de botão WhatsApp</h1>
+            <label for="telefone ">Número de WhatsApp para o botão</label>
+            <input id="telefone" type="text" placeholder="+51 21 99999-9999">
+            <p style="color:red" class="erroTelefone"><b></b></p>
+
+
+            <label for="text">Mensagem de boas vindas</label>
+            <textarea id="mensagem" placeholder="Digite seu texto aqui..."></textarea>
+
+            <button id="gerar" onclick="gerarBtn()">Gerar</button>
+
+            <textarea id="gerado"></textarea>
+        </section>
+
+    </main>
+
+
+    <link rel="stylesheet" href="https://cdn.positus.global/production/resources/robbu/whatsapp-button/whatsapp-button.css"> <a id="robbu-whatsapp-button" target="_blank" href="https://api.whatsapp.com/send?phone=5521966154418text= "> <img src="https://cdn.positus.global/production/resources/robbu/whatsapp-button/whatsapp-icon.svg"> </a>
+
+
+    <script src="script.js">
+    </script>
+
+
+</body>
+
+</html>
